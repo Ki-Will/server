@@ -5,7 +5,7 @@
   "repository": "https://github.com/bitwarden/enterprise",
   "license": "-",
   "scripts": {
-    "build": "webpack"
+    "build": "node init && webpack"
   },
   "dependencies": {
     "bootstrap": "5.3.6",
